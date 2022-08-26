@@ -5,7 +5,7 @@ import ImageUploading from "./components/ImageUploading";
 
 const App = () => {
     const [isImageUploaded, setIsImageUploaded] = useState(false);
-    const [isImageUploading, setIsImageUploading] = useState(false);
+    const [isImageUploading, setIsImageUploading] = useState(true);
 
     return (
         <div className="app">
