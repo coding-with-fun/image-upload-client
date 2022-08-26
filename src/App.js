@@ -8,7 +8,7 @@ const App = () => {
     const [isImageUploading, setIsImageUploading] = useState(true);
 
     return (
-        <div className="app">
+        <div className="app container">
             {isImageUploaded ? (
                 <ImageUploaded />
             ) : isImageUploading ? (
