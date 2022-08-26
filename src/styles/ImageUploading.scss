@@ -1,7 +1,9 @@
 .image_uploading_container {
     box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
     border-radius: 12px;
-    width: 402px;
+    width: 100%;
+    max-width: 402px;
+    margin: 0 1rem;
     height: 140px;
 
     display: flex;

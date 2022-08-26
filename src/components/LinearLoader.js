@@ -2,7 +2,7 @@ import React from "react";
 
 const LinearLoader = () => {
     return (
-        <div class="linear-activity">
+        <div className="linear-activity">
             <div className="indeterminate"></div>
         </div>
     );
