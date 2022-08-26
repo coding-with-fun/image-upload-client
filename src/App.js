@@ -7,12 +7,16 @@ const App = () => {
     const [isImageUploaded, setIsImageUploaded] = useState(false);
     const [isImageUploading, setIsImageUploading] = useState(false);
 
-    return isImageUploaded ? (
-        <ImageUploaded />
-    ) : isImageUploading ? (
-        <ImageUploading setIsImageUploaded={setIsImageUploaded} />
-    ) : (
-        <ImageUploader setIsImageUploading={setIsImageUploading} />
+    return (
+        <div className="app">
+            {isImageUploaded ? (
+                <ImageUploaded />
+            ) : isImageUploading ? (
+                <ImageUploading setIsImageUploaded={setIsImageUploaded} />
+            ) : (
+                <ImageUploader setIsImageUploading={setIsImageUploading} />
+            )}
+        </div>
     );
 };
 
